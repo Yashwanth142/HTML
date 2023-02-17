@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <link href="sample.css" rel="stylesheet">
+    <head>
+        <title>Basic input types</title>
+    </head>
+    <body>
+       
+        <form>
+            <header class="headerContainer"><h1>HTML 5 Form Input Fields</h1></header>
+            <div>
+                <label for="text">text input type for Name:</label>
+                <input type="text" id="text" name="text">
+                <error-output class="text-error" for="text"></error-output>
+            </div>
+            <div>
+                <label for="pwd">password input type:</label>
+                <input type="password" id="pwd" name="pwd">
+            </div>
+            <div>
+                <label for="email">email input type:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="url">url input type:</label>
+                <input type="url" id="url" name="url">
+            </div>
+            <div>
+                <label for="number">number input type:</label>
+                <input type="number" id="number" name="number">
+            </div>
+            <div>
+                <label for="tel">tel input type:</label>
+                <input type="tel" id="tel" name="tel">
+            </div>
+            <div>
+                <label for="search">search input type:</label>
+                <input type="search" id="search" name="search">
+            </div>
+            <div class="nativeDataTimePicker">
+                <label for="party">Choose a date and time:</label>
+                <input type="datetime-local" id="party" name="bday">
+            </div>
+
+            <div>
+                <label for="salary">Choose your salary:</label>
+                <input type="range" id="salary" name="salary" min="30000" max="500000" step="100" value="100000">
+                <output class="salary-output" for="salary">40000</output>
+            </div>
+        </form>
+    </body>
+</html>
